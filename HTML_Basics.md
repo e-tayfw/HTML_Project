@@ -125,10 +125,11 @@ The value of the title attribute will be displayed as a tooltip when you mouse o
 1. Use lowercases, HTML standard does not require it, this is however, demanded in stricter document types like XHTML, and it is also good to standardise throughout
 
 2. Always Quote attribute values, HTML standard does not require it, this is however, demanded in stricter document types like XHTML, and it is also good to standardise throughout
+
 Good:
- <a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
+    <a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
  Bad:
-<a href=https://www.w3schools.com/html/>Visit our HTML tutorial</a>
+    <a href=https://www.w3schools.com/html/>Visit our HTML tutorial</a>
 
 Quotes are also required, especially when using the title attribute and there is a space in the title
 
@@ -137,9 +138,9 @@ Quotes are also required, especially when using the title attribute and there is
 Double quotes around attribute values are the most common in HTML, but single quotes can also be used.
 In some situations, when the attribute value itself contains double quotes, it is necessary to use single quotes:
 
-    <p title='John "ShotGun" Nelson'>
+<p title='John "ShotGun" Nelson'>
 or vice versa
-    <p title="John 'ShotGun' Nelson">
+<p title="John 'ShotGun' Nelson">
 
 HTML attribute reference:
 ```htm
