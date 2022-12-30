@@ -1,4 +1,3 @@
-```markdown
 # "ELEMENTS FUNDEMENTAL"
 1. All elements have a tag, take note of how it looks like <tagname>CONTENT GOES INSIDE HERE</tagname> Always have a <start tag> and an </end tag>
 
@@ -147,4 +146,3 @@ HTML attribute reference:
 <a href="https://www.w3schools.com/tags/ref_attributes.asp">All Attributes</a>
 ```
 
-```
