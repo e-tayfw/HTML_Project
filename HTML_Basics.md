@@ -4,14 +4,13 @@
 2. All elements are not case sensitive, meaning that <P> would be the same as <p> but it is good code ethic to maintain a consistent rule, so just use lower case
 
 # "BASIC ELEMENTS"
+<!DOCTYPE html>
+All HTML documents to start off with <!DOCTYPE html>, this is to ensure that you are telling the computer that it is a HTML5 Document
 
-## <!DOCTYPE html>
-    All HTML documents to start off with <!DOCTYPE html>, this is to ensure that you are telling the computer that it is a HTML5 Document
+<html>
+Next will be the root element <html> which defines the whole HTML document, there  are elements with this element which makes this element a **NESTED ELEMENT**
 
-## <html>
-    Next will be the root element <html> which defines the whole HTML document, there  are elements with this element which makes this element a **NESTED ELEMENT**
-
-### <heading>
+ <heading>
     Within the html element there are certian basic tags to remember, this is the first one, the heading 
     
     <h1>Heading 1</h1>
@@ -32,7 +31,7 @@
 
 
 
-### <p1>
+<p1>
     Next will be the paragraph tags, this is self explanatory 
 
 
@@ -62,18 +61,18 @@ REMEMBER THAT EVERY SINGLE ONE OF THESE ELEMENTS HAVE A END TAG AS WELL
 ### Href Attribute 
     <a> defines a hyper link , within the start tag, href attribute specifies URL of the page the link goes to
 
-    ```htm
-<a href="https://www.w3schools.com">Visit W3Schools</a>
-    ```
-    More will be run through later 
 
-### src attribute
-    embedded with a <img> tag in a HTML page, src specifices the path to the image to be displayed
+<a href="https://www.w3schools.com">Visit W3Schools</a>
+
+ More will be run through later 
+
+### Src Attribute
+embedded with a <img> tag in a HTML page, src specifices the path to the image to be displayed
 
 ```htm
-    <img src="img_girl.jpg">
+<img src="img_girl.jpg">
 ```
-    There are two ways to specify the URL in the src attribute:
+There are two ways to specify the URL in the src attribute:
 
 1. Absolute URL - Links to an external image that is hosted on another website. Example: src="https://www.w3schools.com/images/img_girl.jpg".
 
@@ -83,24 +82,24 @@ Notes: External images might be under copyright. If you do not get permission to
 
 Tip: It is almost always best to use relative URLs. They will not break if you change domain.
 
-### width and height attribute
-    embedded within the <img> tag as well, specify the width and height of the image
+### Width and Height Attribute
+embedded within the <img> tag as well, specify the width and height of the image
 ```htm
  <img src="img_girl.jpg" width="500" height="600">  
 ```
 ### Alt Attribute
-    embedded with the <img> tag, specifies and alternative text for the image in the case that the image cannot be displayed or found. This occurs due to a slow connection/ error in src or if the user uses a screen reader
+embedded with the <img> tag, specifies and alternative text for the image in the case that the image cannot be displayed or found. This occurs due to a slow connection/ error in src or if the user uses a screen reader
 ```htm
     <img src="img_typo.jpg" alt="Girl with a jacket">
 ```
 ### Style Attribute
-    The style attribute is used to add styles to an element, such as color, font, size, and more.
+The style attribute is used to add styles to an element, such as color, font, size, and more.
 ```htm
-    <p style="color:red;"> This is a paragraph. </p>
+ <p style="color:red;"> This is a paragraph. </p>
 ```
-    More will be learnt later
+More will be learnt later
 ### Lang Attribute 
-    Lang is included within the start tag of <html>, to define the language of the entire Web page. This is meant to assit search engines and browsers
+Lang is included within the start tag of <html>, to define the language of the entire Web page. This is meant to assit search engines and browsers
 ```htm
 <!DOCTYPE html>
     <html lang="en-US">
@@ -113,23 +112,24 @@ As you can see above, language can also be specificed by country type, in the ca
 
 More can be seen in the hyper link below:
 ```htm
-    <a href="https://www.w3schools.com/tags/ref_language_codes.asp">HTML Langugae Code</a>
+<a href="https://www.w3schools.com/tags/ref_language_codes.asp">HTML Langugae Code</a>
 ```
 ### Title Attribute 
-    The title attribute defines some extra information about an element.
-    The value of the title attribute will be displayed as a tooltip when you mouse over the element:
+The title attribute defines some extra information about an element.
+The value of the title attribute will be displayed as a tooltip when you mouse over the element:
 ```htm
-    <p title="I'm a tooltip">This is a paragraph.</p>
+<p title="I'm a tooltip">This is a paragraph.</p>
 ```
 
 # TIPS TO TAKE NOTE OFF:
 1. Use lowercases, HTML standard does not require it, this is however, demanded in stricter document types like XHTML, and it is also good to standardise throughout
 
 2. Always Quote attribute values, HTML standard does not require it, this is however, demanded in stricter document types like XHTML, and it is also good to standardise throughout
-    Good:
-    <a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
-    Bad:
-    <a href=https://www.w3schools.com/html/>Visit our HTML tutorial</a>
+Good:
+ <a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
+ Bad:
+<a href=https://www.w3schools.com/html/>Visit our HTML tutorial</a>
+
 Quotes are also required, especially when using the title attribute and there is a space in the title
 
 # Single or Double Quotes
@@ -137,12 +137,12 @@ Quotes are also required, especially when using the title attribute and there is
 Double quotes around attribute values are the most common in HTML, but single quotes can also be used.
 In some situations, when the attribute value itself contains double quotes, it is necessary to use single quotes:
 
-<p title='John "ShotGun" Nelson'>
+    <p title='John "ShotGun" Nelson'>
 or vice versa
-<p title="John 'ShotGun' Nelson">
+    <p title="John 'ShotGun' Nelson">
 
 HTML attribute reference:
 ```htm
-<a href="https://www.w3schools.com/tags/ref_attributes.asp">All Attributes</a>
+    <a href="https://www.w3schools.com/tags/ref_attributes.asp">All Attributes</a>
 ```
 
