@@ -116,7 +116,7 @@ NOTICE HOW THE ACTUAL OUTPUT IS IN ONE LINE
   Oh, bring back my Bonnie to me.
 </p>
     
-This is why we use <pre>, which defines pre-formatted text. The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves boths SPACES and LINE BREAKS:
+    This is why we use <pre>, which defines pre-formatted text. The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves boths SPACES and LINE BREAKS:
 
 ```htm
 <pre>
