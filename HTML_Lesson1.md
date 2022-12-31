@@ -57,6 +57,7 @@ See how these codes are runned above
     The <hr> tag defines a thermic break in an HTML page. This break is often displayed as a horizontal rule, a line break
     
     The <hr> elemnt is used to seperate content (or define a change) in a HTML page:
+
 ### Example:
 ```htm
 <h1>This is heading 1</h1>
@@ -89,6 +90,7 @@ NOTICE HOW THE LINE BREAKS NOW WITH <br>
 
 ## HTML Pre Element
     Lets say you want to display your code in the format shown below
+
 ### Example:
 ```htm
 <p>
@@ -101,7 +103,9 @@ NOTICE HOW THE LINE BREAKS NOW WITH <br>
   Oh, bring back my Bonnie to me.
 </p>
 ```
+
 NOTICE HOW THE ACTUAL OUTPUT IS IN ONE LINE
+
 <p>
   My Bonnie lies over the ocean.
 
@@ -111,7 +115,9 @@ NOTICE HOW THE ACTUAL OUTPUT IS IN ONE LINE
 
   Oh, bring back my Bonnie to me.
 </p>
-    This is why we use <pre>, which defines pre-formatted text. The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves boths SPACES and LINE BREAKS:
+    
+This is why we use <pre>, which defines pre-formatted text. The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves boths SPACES and LINE BREAKS:
+
 ```htm
 <pre>
   My Bonnie lies over the ocean.
@@ -140,6 +146,7 @@ NOTICE HOW THE ACTUAL OUTPUT IS IN ONE LINE
 ## HTML Style Attribute
     Remember that if you want to include any styles to your text, a style atrribute must be included 
     The HTML style attribute is included in the following syntax below
+
 ```htm
 <h1 style="property:value;"></h1>
 ```
@@ -147,6 +154,7 @@ NOTICE HOW THE ACTUAL OUTPUT IS IN ONE LINE
 
 ## HTML Background Colour
     Self-explanatory, the CSS background-colour defines the background colour for an HTML element
+
 ### Example:
     In this example, we will set the background colour of our webpage to powderblue
 ```htm
@@ -157,6 +165,7 @@ NOTICE HOW THE ACTUAL OUTPUT IS IN ONE LINE
 
 </body>
 ```
+
 <body style="background-color:powderblue;">
 
 <h1>This is a heading</h1>
@@ -181,6 +190,7 @@ NOTICE HOW THE ACTUAL OUTPUT IS IN ONE LINE
 
 ## HTML Text Colour
     The CSS color property defines text color of a HTML element. Take note that the word color is in the United States format
+
 ### Example:
 ```htm
 <h1 style="color:blue;">This is a heading</h1>
@@ -191,6 +201,7 @@ NOTICE HOW THE ACTUAL OUTPUT IS IN ONE LINE
 
 ## HTML Text Size
     The CSS font-size property defines the text size for a HTML element
+
 ### Example:
 ```htm
 <h1 style="font-size:300%;">This is a heading</h1>
@@ -215,6 +226,7 @@ NOTICE HOW THE ACTUAL OUTPUT IS IN ONE LINE
 
 ## HTML Bold
     HTML text be bolded, by doing the following below with a <b> tag, without any extra importance
+
 ### Example:
 ```htm
 <b>This text is bold</b>
@@ -223,6 +235,7 @@ NOTICE HOW THE ACTUAL OUTPUT IS IN ONE LINE
 
 ## HTML Strong
     This HTML element defines a bolded text, with extra importance
+
 ### Example:
 ```htm
 <strong>This text is bolded, with extra importance</strong>
@@ -231,6 +244,7 @@ NOTICE HOW THE ACTUAL OUTPUT IS IN ONE LINE
 
 ## HTML Italic
     This HTML element makes text italic with the <i> tag. The HTML <i> element defines part of text in an alternative mood or voice. This element is often used to indicate a technical term, a phrase from another language, a thought or a ship name etc.
+
 ### Example:
 ```htm
 <i>This text is italic</i>
@@ -243,6 +257,7 @@ NOTICE HOW THE ACTUAL OUTPUT IS IN ONE LINE
 
 ## HTML Small Element
     This <small> element defines smaller text
+
 ### Example:
 ```htm
 <small>This is a small text</small>
@@ -251,6 +266,7 @@ NOTICE HOW THE ACTUAL OUTPUT IS IN ONE LINE
 
 ## HTML Mark Element
     This <mark> element defines text that is highlighted or marked. Used in a nested element
+
 ### Example:
 ```htm
 <p>Do not forget to buy <mark>milk</mark>.</p>
@@ -259,6 +275,7 @@ NOTICE HOW THE ACTUAL OUTPUT IS IN ONE LINE
 
 ## HTML Del Element
     The <del> element defines text that have been deleted from a document. Usually browsers will strikethrough a deleted text
+
 ### Example:
 ```htm
 <p>My favourite colour is <del>blue</del> red.</p>
@@ -267,6 +284,7 @@ NOTICE HOW THE ACTUAL OUTPUT IS IN ONE LINE
 
 ## HTML Ins Element
     The <ins> element defines a text that has been inserted into a document. Usually, browsers will underscore inserted text
+
 ### Example:
 ```htm
 <p>My favourite colour is <del>blue</del> <ins>red</ins>.</p>
@@ -275,6 +293,7 @@ NOTICE HOW THE ACTUAL OUTPUT IS IN ONE LINE
 
 ## HTML Sub Element
     The HTML <sub> element defines subscript text. Subscript text appears half a character below the normal line, and is sometimes rendered in a smaller font. Subscript text can be used for chemical formulas, like H2O:
+
 ### Example:
 ```htm
 <p>This is <sub>subscripted</sub> text.</p>
@@ -283,6 +302,7 @@ NOTICE HOW THE ACTUAL OUTPUT IS IN ONE LINE
 
 ## HTML Sup Element
     The HTML <sup> element defines superscript text. Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font. Superscript text can be used for footnotes, like WWW[1]:
+
 ### Example:
 ```htm
 <p>This is <sub>superscripted</sub> text.</p>
@@ -295,6 +315,7 @@ NOTICE HOW THE ACTUAL OUTPUT IS IN ONE LINE
 
 ## HTML Blockquotes
     The HTML <blockquote> element defines a section that is quoted from another source. Browsers will usually indent the blockquote sections
+
 ### Example:
 ```htm
 <p>Here is a quote from WWF's website:</p>
@@ -309,6 +330,7 @@ For 60 years, WWF has worked to help people and nature thrive. As the world's le
 
 ## HTML Short Quotations 
     The HTML <q> tag defines a short quotation. Browsers normally insert quotation marks around the quotation
+
 ### Example:
 ```htm
 <p> WWF goal is to: <q>Build a future where people live in harmony with nature.</q></p>
@@ -318,6 +340,7 @@ For 60 years, WWF has worked to help people and nature thrive. As the world's le
 ## HTML Abbreviations
     The HTML tag <abbr> defines a abbreviation or an acronym. Marking abbreviations can give useful information to browsers, translation-systems and search engines.
     Tip: Use the global title attribute to show the description for the abbreviation/acronym when you mouse over the element. 
+
 ### Example:
 ```htm
 <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
@@ -326,6 +349,7 @@ For 60 years, WWF has worked to help people and nature thrive. As the world's le
 
 ## HTML Address
     The <address> element defines the contact information for the author of a document. Contact information can be: email address, URL, physical address, phone number, social media handle, etc. The text in the <address> element usually renders in italic, and browsers will always add a line break before and after the <address> element.
+
 ### Example:
 ```htm
 <address>
@@ -346,6 +370,7 @@ USA
 
 ## HTML Work Title
     The HTML <cite> tag defines the title for a creative work. A person's name is not the title of a work
+
 ### Example:
 ```htm
 <p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
@@ -373,6 +398,7 @@ USA
 YOU CAN USE COMMENT DIFFERNETLY
 ## Add Comment
     With comments you can place reminders and notifications
+
 ### Example:
 ```htm
 <!-- This is a comment -->
@@ -390,6 +416,7 @@ YOU CAN USE COMMENT DIFFERNETLY
 
 ## Hide Comment
     Comments can also be useful in hiding content temporarily. Once everything is confirmed, you can deleted the appropriate hidden text
+
 ### Example:
 ```htm
 <p>This is a paragraph.</p>
@@ -408,6 +435,7 @@ YOU CAN USE COMMENT DIFFERNETLY
 
 ## Hide Inline Comment
     Comments can also be used to hide parts in the middle of the HTML code.
+
 ### Example:
 ```htm
 <p>This <!-- great text --> is a paragraph.</p>
