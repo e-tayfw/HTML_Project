@@ -255,8 +255,6 @@ This HTML element makes text italic with the i tag. The HTML i element defines p
 ## HTML Emphasized Text
 This HTML element displayed emphasized text in italic. A screen reader will pronounce the words in <em> with an emphasis, using verbal stress
 
-<em>This text is emphasized</em>
-
 ## HTML Small Element
 This small element defines smaller text
 
