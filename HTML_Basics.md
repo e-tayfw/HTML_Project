@@ -95,8 +95,9 @@ embedded with the <img> tag, specifies and alternative text for the image in the
 ### Style Attribute
 The style attribute is used to add styles to an element, such as color, font, size, and more.
 ```htm
- <p style="color:red;"> This is a paragraph. </p>
+<p style="color:red;"> This is a paragraph. </p>
 ```
+
 More will be learnt later
 ### Lang Attribute 
 Lang is included within the start tag of <html>, to define the language of the entire Web page. This is meant to assit search engines and browsers
