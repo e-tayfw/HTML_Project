@@ -1,0 +1,33 @@
+/*Rule 1*/
+.subsection {
+    color:blue;
+}
+/*Rule 2*/
+.main .list {
+    color: red;
+}
+/* In this scenario, both use class selectors, but rule 2 uses more class selectors.
+Thus, Rule 2 takes precedence over Rule 1 and color is red
+
+/*Rule 3*/
+#selection {
+    color:violet;
+}
+/*Rule 4*/
+.mane .tuple {
+    color:coral;
+}
+/* In this Scenario, Rule 3 triumphs because ID takes precedence over class selectors
+
+/*Rule 5*/
+#section .dict {
+    background-color: yellow;
+    color: cadetblue;
+}
+/*Rule 6*/
+#section .side .dict {
+    color: red;
+}
+/* When both rules have the same types of selectors, we look at the number of selectors to 
+decide the precedence. In this case, Rule 6 takes precedence as it has more class selectors
+than Rule 5 */

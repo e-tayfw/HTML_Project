@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <link rel="stylesheet" href="odin.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--The selector below is a TYPE SELECTOR (ELEMENT) ANYTHING UNDER THE 
+    ELEMENT WILL APPLY TO THE CSS FILE ACCORDINGLY-->
+    <div>Hello, World</div>
+    <div>Hello, Again!</div>
+    <p>Hi...</p>
+    <div>Okay, bye</div>
+    <br>
+    <!--The selector below is a CLASS SELECTOR, anything placed under the class
+    will apply to the CSS file accordingly-->
+    <div class="alert-text">
+        Please agree to our Terms and Services
+    </div>
+    <!--You can add more than one class to the class with a whitespace-->
+    
+    <!--Similar to class selectors, these ID SELECTORS select elements with a specific
+    ID, which is another attribute you place on an HTML element-->
+    <div id="title">My Awesome 90s Page</div>
+    <!--Difference between ID and class selector:
+    1. An element can only have ONE ID
+    2. ID cannot be repeated on a single page
+    3. An ID cannot have any whitespace at all
+    
+    Use IDs sparingly, if it requires more specificity in style, if not just use CLASS-->
+    
+    <!--See css file to understand GROUP SELECTORS, used when selectors have
+    duplicated declarations-->
+    <div class="read">
+        This is an example of group selectors used, to minimise repetition
+    </div>
+    <div class="unread">
+        Unread selector will also get the same declaration as read
+    </div>
+    
+    <!--CHAIN SELECTORS, chained as a list without seperation, used for class with a whitespace-->
+    <div>
+        <div class="subsection header">Latest Posts</div>
+        <p class="subsection preview">This is a preview of the posts</p>
+        <!--A class and a ID can be chained together, in this format-->
+        <p class="subsection" id="preview">This is the corrected preview of posts</p>
+    </div>
+    <!--Chaining type selectors do not work as it will try to find a <divp> instead of
+    seperate selectors <div> and <p>-->
+    
+    <!--DESCENDANT COMBINATORS is represented in CSS by a single space between selectors. 
+    A descendant combinator will only cause elements that match the last selector to be selected if 
+    they also have an ancestor (parent, grandparent, etc) that matches the previous selector.-->
+    <div class="ancestor">ALPHA
+        <div class="child">BRAVO
+            <div class="child">CHARLIE
+            </div>
+        </div>
+    </div>
+    <div class="child">DELTA</div>
+    <!--NOTICE how only the descendants receive the css attributes, thus making it a
+    descendant combinator, try to minimise a high level of nesting as it can
+    get very confusing-->
+    
+    <!--Introduction to the CSS colors and the different formats-->
+    <ph>Observe the colours in this sentence</ph>
+
+    <!--Different Fonts/ Styles introduced to this paragraph-->
+    <div class="special-fonts">
+        Check out this font, notice the difference from the normal fonts/styles used
+    </div>
+
+    <img src="../odin-links-and-images/images/dog.jpg" alt="Dog Picture">
+</body>
+</html>

@@ -1,0 +1,60 @@
+* {
+    color: purple;
+}
+
+div {
+    color:blue;
+}
+
+.alert-text {
+    color:red;
+}
+
+#title {
+    background-color:aqua;
+}
+
+.read,
+.unread {
+    color:brown;
+    background-color: darkblue;
+}
+
+.subsection.header {
+    color:magenta;
+}
+
+.subsection#preview {
+    color:burlywood;
+}
+
+.ancestor .child {
+    color:lime;
+    background-color: rgb(130, 139, 61);
+}
+
+ph {
+    color: #00ff0070;
+    /* hexadecimal example with alpha*/
+    background-color: rgb(200, 40, 130);
+    /* RGB (Red, Green, Blue) example, can use RGBA also */
+    color: hsl(15, 82%, 56%);
+    /* HSL (Hue, Saturation, Lightness), can also use HSLA, hue is the degree of color wheel */
+}
+
+.special-fonts {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* if cannot find first family, it will fall to second family in list */
+    font-size: 30px;
+    /* font size is written using 30 and px with no whitespace in between */
+    font-weight:700;
+    /* font weight affects the boldness of the text */
+    text-align: center;
+    /* align the text accordingly */
+}
+
+img {
+    height:auto; /*auto used to show the automated height if no change required*/
+    width: 200px;
+}
+
