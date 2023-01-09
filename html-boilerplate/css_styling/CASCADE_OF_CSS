@@ -1,0 +1,81 @@
+## 1. SPECIFICITY 
+**CSS declaration that is more specific will take precedence over the less specific ones**
+<hr>
+
+### 1.1 Highest Specificity:
+- INLINE STYLES == Adding CSS into the HTML file instead of using an external CSS file
+
+### 1.2 Mid Specificity
+1. ID selectors (most specific)
+2. Class selectors
+3. Type selectors
+4. Universal selector
+
+    Specificity will only be taken into account when an element has multiple, conflicting declarations targeting it, sort of like a tie-breaker. An ID selector will always beat any number of class selectors, a class selector will always beat any number of type selectors, and a type selector will always beat any number of anything less specific than it. When no declaration has a selector with a higher specificity, a larger amount of a single selector will beat a smaller amount of that same selector.
+
+Combinators or type of combinators have no effect on the specificity of the declaration. It really just depends on what selector is used and the number of
+selectors. 
+
+## 2. INHERITANCE
+**Refers to when CSS is applied to an element, its descendants inherit the same declarations, even if we do not explicitly write a rule for the descendents. The only exception is when we specify the rule for the descendents, whether there is a higher specificity or not**
+
+## 3. RULE ORDER
+**If both inheritance and specificity is the same, the declaration that is last applied takes PRECEDENCE**
+
+## 4A) ETXTERNAL CSS
+We have been doing external css, where we extract the css code from another file to 
+the html file, it looks something like this
+<br>
+```htm
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <link rel="stylesheet" href="odin.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div class="subsection header">Latest Posts</div>
+        <p class="subsection preview">This is a preview of the posts</p>
+        <!--A class and a ID can be chained together, in this format-->
+        <p class="subsection" id="preview">This is the corrected preview of posts</p>
+    </div>
+</body>
+</html>
+```
+
+## 4B) INTERNAL CSS
+Internal CSS (or embedded CSS) involves adding the CSS within the HTML file itself instead of creating a completely separate file. It looks like something shown in the bottom
+<br>
+```htm
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        div {
+            color: white;
+            background-color: black;
+        }
+        p {
+            color: red;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>Odin Project</title>
+</head>
+<body>
+    <h1>Odin CSS</h1> 
+</body>
+</html>
+```
+Useful for adding unique styles to a single page on your website, instead of the whole website itself
+
+## 4C) INLINE CSS
+Adding styles directly to CSS elements, although this method is not recommended
+<br>
+```htm
+<body>
+    <div style= "color: white; background-color: blue;"> Blue </div>
+</body>
+```
