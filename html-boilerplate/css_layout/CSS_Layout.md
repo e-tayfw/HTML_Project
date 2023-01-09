@@ -20,7 +20,7 @@ The page layout techniques will be covered more into detail:
 - [Multiple Column Layout] (#Multiple Column Layout)
 <hr>
 
-## Normal Flow
+## 1) Normal Flow
 
 Normal flow is how the browser lays out the HTML pages by default when you do nothing to control the page layout. This is an example:
 ```htm
@@ -40,10 +40,9 @@ By default, this is the end result:
 ![Normal Layout Code](../css_layout/img/Normal_Layout.png)
 
 Notice how the output follow the exact layout as the code being shown above.
-- The elements that appear below and above wach other are ** BLOCK ELEMENTS **
-- The elements that appear beside each other, as shown in a sentence are ** INLINE ELEMENTS **
+- The elements that appear below and above wach other are **BLOCK ELEMENTS**
+- The elements that appear beside each other, as shown in a sentence are **INLINE ELEMENTS**
 
-<img src="../img/Normal_Layout.png" alt="Normal Layout Code">
 
 Notice how the output follow the exact layout as the code being shown above.
 - The elements that appear below and above wach other are **BLOCK ELEMENTS**
@@ -52,7 +51,7 @@ Notice how the output follow the exact layout as the code being shown above.
 Note: The direction in which block element contents are laid out is described as the Block Direction. The Block Direction runs vertically in a language such as English, which has a horizontal writing mode. It would run horizontally in any language with a Vertical Writing Mode, such as Japanese. The corresponding Inline Direction is the direction in which inline contents (such as a sentence) would run.
 <hr>
 
-## Display Property
+## 2) Display Property
 
 We specify methods using the display property to change the way that the elements are being displayed in a specific way. 
 
@@ -65,7 +64,7 @@ Lets look at another example:
 There are many more ways to use the display property, which will be gone through in the next few sections such as **display : flex** or **display : grid**
 <hr>
 
-## FlexBox
+## 3) FlexBox
 
 Flexbox is a one-dimensional layout methodfor arranging items in row or columns. Items will expand (in this term: flex) to fill additional space or shrink to fit into smaller spaces.
 
@@ -93,7 +92,7 @@ The default values given to flex items are set up to solve the following problem
 To further understand the flex model, it looks like this:
 ![Flex Model](../css_layout/img/flex_model.png)
 
-### Columns or Rows
+### 3.1) Columns or Rows
 If you want flex containers to be in one row, use
 ```css
 section {
@@ -108,7 +107,7 @@ section {
 ```
 They can be reversed by adding a -reverse to the value too
 
-### Wrapping
+### 3.2) Wrapping
 
 We can understand wrapping by observing the issue below:
 ![Initial Wrap](../css_layout/img/flexbox_wrap.png)
